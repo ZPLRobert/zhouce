@@ -39,57 +39,7 @@
 	sr: number;
 }
 
- interface Song {
-	name: string;
-	id: number;
-	pst: number;
-	t: number;
-	ar: Ar[];
-	alia?: any[];
-	pop: number;
-	st: number;
-	rt: string;
-	fee: number;
-	v: number;
-	crbt?: any;
-	cf: string;
-	al: Al;
-	dt: number;
-	h: H;
-	m: M;
-	l: L;
-	sq: Sq;
-	hr: Hr;
-	a?: any;
-	cd: string;
-	no: number;
-	rtUrl?: any;
-	ftype: number;
-	rtUrls: any[];
-	djId: number;
-	copyright: number;
-	s_id: number;
-	mark: number;
-	originCoverType: number;
-	originSongSimpleData?: any;
-	tagPicList?: any;
-	resourceState: boolean;
-	version: number;
-	songJumpInfo?: any;
-	entertainmentTags?: any;
-	single: number;
-	noCopyrightRcmd?: any;
-	rtype: number;
-	rurl?: any;
-	mst: number;
-	cp: number;
-	mv: number;
-	publishTime: number;
-	tns: string[];
-	alg: string;
-}
-
- interface Banner {
+  interface Banner {
 	pic: string;
 	targetId: number;
 	mainTitle?: any;
